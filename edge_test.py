@@ -2,9 +2,6 @@
 Edge-case test. Seeds the database 'attendance_edge' (NOT your real one) and checks the
 running API against hand-calculated answers.
 
-1) Start the server against the edge DB (real env vars beat .env):
-     PowerShell:  $env:MONGO_DB="attendance_edge"; uvicorn app.main:app --port 8000
-2) In another terminal:  python edge_test.py
 """
 import json
 import os
